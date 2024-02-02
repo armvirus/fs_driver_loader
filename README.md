@@ -6,7 +6,7 @@ Load driver on boot before anti-cheats by creating service entry as FSDriver
 2. Service entry is created in the registry
 3. 
 ## Example Usage
-![Load/Unload Example](./example.jpg)
+![Load/Unload Example](example.jpg)
 
 Note: this project requres your driver to be signed obviously<br />
 
