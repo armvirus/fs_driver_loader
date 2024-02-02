@@ -1,5 +1,5 @@
 # fs_driver_loader
-Load driver on boot before anti-cheats by creating service entry as FSDriver
+Load the driver during system boot by setting up a FSDriver service entry. Considering that FaceIT/Vanguard drivers are initialized as boot drivers and Windows loads FSDrivers befire boot drivers, which is why our driver will be loaded first.
 
 ## Procedure
 1. The loader copies the targetted driver so system32\drivers
